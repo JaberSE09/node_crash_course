@@ -1,23 +1,25 @@
 {
-  "name": "fcc-learn-npm-package-json",
-  "dependencies": {
-    "express": "^4.17.3"
-  },
-  "main": "server.js",
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "Node Crash Course",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JaberSE09/nodejsapp.git"
+    "url": "git+https://github.com/JaberSE09/node_crash_course.git"
   },
-  "description": "[![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-npm)](https://repl.it/github/freeCodeCamp/boilerplate-npm)",
-  "version": "1.0.0",
-  "devDependencies": {},
   "author": "Sajid Jaber",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JaberSE09/nodejsapp/issues"
+    "url": "https://github.com/JaberSE09/node_crash_course/issues"
   },
-  "homepage": "https://github.com/JaberSE09/nodejsapp#readme"
+  "homepage": "https://github.com/JaberSE09/node_crash_course#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
