@@ -9,11 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JaberSE09/nodejsapp"
+    "url": "git+https://github.com/JaberSE09/nodejsapp.git"
   },
   "description": "[![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-npm)](https://repl.it/github/freeCodeCamp/boilerplate-npm)",
   "version": "1.0.0",
   "devDependencies": {},
   "author": "Sajid Jaber",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaberSE09/nodejsapp/issues"
+  },
+  "homepage": "https://github.com/JaberSE09/nodejsapp#readme"
 }
